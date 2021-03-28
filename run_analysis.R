@@ -74,6 +74,6 @@ run_analysis <- function() {
   
   ## Generate a file and save as "TidyData.txt"
   
-  write.table(newdata, "TidyData.txt")
+  write.table(newdata, "TidyData.txt", row.names=FALSE)
 
 }
