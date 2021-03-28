@@ -141,4 +141,14 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 Cleaning Methodology:
 ======================
 
-1.  The tes
+1.  The 6 activities in y_test and y_train files were linked to respective feature measurement in x_test and x_train files by creating a new varaible called "Activity".
+2.  By using "dplyr" package, the "Activity" variable was re-arranged as the first variable in the test and train data sets.
+3.  The IDs in "Activity" field were also replaced with descriptive activity names by using the "activity_labels" file
+4.  Similar to the activities, the subjects of the test and train data were linked to respective activity and feature measument using the subject file provided
+5.  A new variable called "Subject" was created and re-arranged as the first variable, with "Activity" now became the second variable.
+6.  The test and train data sets were then merged into one data set.
+7.  The descriptive labels of the features were used for the names of the feature variable of the data sets by using names specified in the features file
+8.  Extract only mean and standard deviations of each measurement in the resulting data set.
+9.  Clean up the names of the feature description by removing brackets and replacing dash with underscore.
+10. Create a new data set by averaging each variable for each activity and each subject.
+11. Save the data set created to a new file named "TidyData.txt"
