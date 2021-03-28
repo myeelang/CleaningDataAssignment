@@ -1,6 +1,6 @@
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
-==================================================================
+Cleaning Data Assignment using Human Activity Recognition Using Smartphones Dataset
+
+Background
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
