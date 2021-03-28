@@ -1,8 +1,8 @@
 Cleaning Data Assignment using Human Activity Recognition Using Smartphones Dataset
-
-Background
 =================================================================
-==================================================================
+
+Background:
+============
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
@@ -137,3 +137,8 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
+Cleaning Methodology:
+======================
+
+1.  The tes
